@@ -47,5 +47,5 @@ class DriverListView(generic.ListView):
 class DriverDetailView(generic.DetailView):
     model = Driver
     queryset = Driver.objects.all()
-    template_name = "taxi/driver_detail.html"  # ???
+    template_name = "taxi/driver_detail.html"
     context_object_name = "driver_detail"
